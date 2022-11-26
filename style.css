@@ -1,0 +1,121 @@
+
+html {
+  font-size: 16px;
+}
+
+a {
+font-style: italic;
+}
+
+/*Carousel*/
+.carousel {
+
+}
+
+/*Navigation*/
+
+.navbar {
+  font-size: 15px;
+  align-content: center;
+  margin-top: 8px;
+  margin-right: 16px;
+  background: #ddd;
+font-size: 17px;
+}
+
+.navbar ul li{
+  background-color: #b6e6e6;
+  padding: 10px 12px 10px 12px;
+  width: 100%;
+}
+
+/*Header*/
+header {
+  padding: 24px 32px;
+  background-color: rgb(228, 239, 240);
+}
+
+header .desktop {
+  display: flex;
+  align-items: center;
+}
+header .logo {
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+}
+header .logo img {
+  margin-right: 18px;
+}
+header li {
+  display: inline;
+  padding-right: 1rem;
+}
+nav li{
+  display: inline;
+  padding-right: 1rem;
+  align-items: center;
+}
+
+/*main*/
+.main {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 60px;
+  padding-top: 40px;
+}
+.row {
+  border-spacing: 20px;
+}
+
+.text-color {
+  color: blue;
+}
+.text-color2 {
+  color: green;
+}
+
+/*About us*/
+.Aboutus {
+  align-content: center;
+  width: 85%;
+  padding: 45px 250px 45px 250px;
+  background-color: #7DB5B5;
+  justify-content: center;
+  width: 100%;
+}
+
+/*footer*/
+.footer {
+  display: flex;
+  padding: 45px 150px 45px 150px;
+}
+
+footer {
+display: flex;
+padding: 32px 32px;
+font-size: 9px;
+color: rgb(112, 112, 112);
+
+}
+
+footer ul li{
+display: flex;
+padding: 9px 18px;
+float: right;
+}
+
+footer .copyright {
+flex-grow: 1;
+}
+footer a {
+margin-right: .75rem;
+}
+footer a:last-child {
+margin-right: 0;
+}
+@media only screen and (max-width: 600px) {
+footer a {
+  display: none;
+}
+}
