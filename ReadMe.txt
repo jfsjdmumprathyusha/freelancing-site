@@ -1,14 +1,17 @@
-#DESCRIPTION:-
+*****************************       #DESCRIPTION       ******************************
 
 freelancing site: 
 where people use to sell there work in different areas of interest as well as buying.
 
 
-#Designed using: 
+
+
+
+*****************************       #Designed using       ****************************
 
 html, Css, Bootstrap
 
-#REFERENCES:-
+*****************************       #REFERENCES     *****************************               
 
  1. Navigation bar using css.
  2. Carousel using Bootstrap
@@ -19,9 +22,23 @@ html, Css, Bootstrap
  7. bootstrap link:- "https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.rtl.min.css"
 
 
-#Details:-
 
-Sprint 1 with 3 task days
+
+
+
+
+
+*****************      File details      ******************
+
+Index.html : main page
+AbouUs.html : aboutus page
+seller.html : If some want to become a seller to create a profile, click on create profile goes to    
+=========createprofile.html with respective  Js and style ==========
+
+
+*****************        #Details       ********************
+
+Sprint 1 with 6 tasks
 
 
 #conclusion: 

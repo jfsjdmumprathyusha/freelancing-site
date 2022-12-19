@@ -1,6 +1,7 @@
 
 html {
   font-size: 16px;
+  margin: 20px;
 }
 
 a {
@@ -19,14 +20,22 @@ font-style: italic;
   align-content: center;
   margin-top: 8px;
   margin-right: 16px;
-  background: #ddd;
-font-size: 17px;
+ 
+  font-size: 17px;
+
 }
 
 .navbar ul li{
-  background-color: #b6e6e6;
+  opacity: 0.6;
   padding: 10px 12px 10px 12px;
   width: 100%;
+  text-decoration: none;
+
+}
+.navbar a{
+  color: rgb(3, 2, 2);
+  font-size: 15px;
+  font-weight: bold;
 }
 
 /*Header*/
@@ -56,6 +65,10 @@ nav li{
   padding-right: 1rem;
   align-items: center;
 }
+header a{
+  font-size: 18px;
+  color: black;
+}
 
 /*main*/
 .main {
@@ -69,10 +82,10 @@ nav li{
 }
 
 .text-color {
-  color: blue;
+  color: rgb(5, 5, 10);
 }
 .text-color2 {
-  color: green;
+  color: rgb(8, 10, 8);
 }
 
 /*About us*/
@@ -91,18 +104,20 @@ nav li{
   padding: 45px 150px 45px 150px;
 }
 
-footer {
-display: flex;
-padding: 32px 32px;
-font-size: 9px;
-color: rgb(112, 112, 112);
-
-}
+.footer1 {
+  display: inline-block;
+  padding: 32px 32px;
+  font-size: 9px;
+  color: rgb(112, 112, 112);
+  align-items: center;
+  }
 
 footer ul li{
-display: flex;
+display: inline;
 padding: 9px 18px;
 float: right;
+
+
 }
 
 footer .copyright {
@@ -115,7 +130,36 @@ footer a:last-child {
 margin-right: 0;
 }
 @media only screen and (max-width: 600px) {
-footer a {
+.footer a {
   display: none;
 }
+}
+
+.profile{
+  align-items: center;
+}
+
+
+/*  sell.html styling */
+.form{
+  text-align: center;
+}
+
+/* create profile */
+.back-video{
+  position: absolute;
+  right: 0;
+  left: 0;
+  z-index: -1;
+}
+@media(min-aspect-ratio: 16/9){
+  .back-video{
+    width: 100%;
+    height: 100%;
+  }
+}
+
+
+.seller h1{
+  text-align: center;
 }
